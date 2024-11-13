@@ -2,8 +2,13 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    background: #bfd5ff;
 }
 
-h1 {
+header>h1 {
     font-size: 2rem;
+}
+
+nav {
+
 }
