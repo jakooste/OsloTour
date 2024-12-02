@@ -11,41 +11,95 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-<header class="topRibbon container-fluid">
-    <div class="row row-cols-2">
-        <div class="col-sm-4">
+<div class="page container-fluid">
+    <div class="row">
+        <header>
             <h1>Oslo Tour</h1>
-        </div>
-        <div class="col-sm">
-            <div class="row">
-                <div class="col-sm-auto">
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-md-3 box">
+            <nav>
+                <div class="row">
                     <a class="navbutton" href="index.html">Strona główna</a>
                 </div>
-                <div class="col-sm-auto">
+                <div class="row">
                     <a class="navbutton" href="about.html">O stronie</a>
                 </div>
-            </div>
+            </nav>
+        </div>
+        <div class="col-md-9 box">
+            <main>
+                <article>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1>Witaj na stronie Oslo Tour! </h1>
+                            <p>
+                                Niniejsza strona poświęcona jest Oslo, stolicy Norwegii, a konkretnie ciekawym miejscom,
+                                które
+                                powinien odwiedzić każdy turysta. <br>
+                                Poniżej znajdziesz listę artykułów poświęconych poszczególnym atrakcjom.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row article-image">
+                                <img id="img-oslo-1" src="img/Oslo-1.jpg" alt="Malowniczy mostek w Oslo">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Lista miejsc</h2>
+                        <table>
+                            <tr>
+                                <th>Nazwa</th>
+                                <th>Rodzaj</th>
+                                <th>Opłata za wstęp</th>
+                            </tr>
+                            <tr>
+                                <td><a href="vigeland.html">Vigelandsparken</a></td>
+                                <td>Park</td>
+                                <td>brak</td>
+                            </tr>
+                            <tr>
+                                <td><a href="ekeberg.html">Ekebergparken</a></td>
+                                <td>Park</td>
+                                <td>brak</td>
+                            </tr>
+                            <tr>
+                                <td><a href="munch.html">MUNCH</a></td>
+                                <td>Muzeum</td>
+                                <td>180 NOK</td>
+                            </tr>
+                            <tr>
+                                <td><a href="damstredet.html">Damstredet &amp; Telthusbakken</a></td>
+                                <td>Ulica</td>
+                                <td>brak</td>
+                            </tr>
+                            <tr>
+                                <td><a href="fiskeriet.html">Fiskeriet</a></td>
+                                <td>Restauracja/Sklep</td>
+                                <td>brak</td>
+                            </tr>
+                            <tr>
+                                <td><a href="royalpalace.html">The Royal Palace</a></td>
+                                <td>Muzeum</td>
+                                <td>220 NOK</td>
+                            </tr>
+                            <caption>Tabela najciekawszych miejsc w Oslo</caption>
+                        </table>
+                    </div>
+                </article>
+            </main>
         </div>
     </div>
-</header>
-<main>
-    <article>
-        <h1>Witaj na stronie Oslo Tour!</h1>
-        <p>
-            Niniejsza strona poświęcona jest Oslo, stolicy Norwegii, a konkretnie ciekawym miejscom, które powinien odwiedzić każdy turysta.
-        </p>
-        <h2>Lista miejsc</h2>
-        <table>
-            <tr>
-                <th>Nazwa</th> <th>Rodzaj</th> <th>Opłata za wstęp</th>
-            </tr>
-            <tr>
-                <td>Park Vigelanda</td> <td>Park</td> <td>brak</td>
-            </tr>
-            <caption>Tabela najciekawszych miejsc w Oslo</caption>
-        </table>
-    </article>
-</main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <div class="row">
+        <footer>
+            <p>&copy;2024 Oslo Tour</p>
+        </footer>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
 </body>
 </html>
